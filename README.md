@@ -1,8 +1,9 @@
 # Determining the most effective variant caller with machine learning
 
-My project consists of 3 parts:
+My project consists of 2 parts:
 
-1. Model and prediction [Jupyter Notebook]
+1. Train a machine learning classifier and predict the correct labels for a varaint caller
+2. Compare model predicted labels and crowdsourced labels for the variant caller using: predict_proba and tSNE plots
 
 #### Background
 There is substantial disagreement between various variant calling pipelines (i.e.: a tools that tells a user whether a variant exists within a particular site within the genome)
